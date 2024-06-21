@@ -1,7 +1,6 @@
 <?php
-$db=mysqli_connect("localhost","root","","portfolio");
-//if($db){
-//    echo "databse is connected !";
-//}else{
-//    echo "something is wrong with database !";
-//
+	define('DB_HOST', 'tphserver.mysql.database.azure.com');
+	define('DB_USER', 'newserver');
+	define('DB_PASS', 'tphadmin');
+	define('DB_NAME', 'ThePortfolioHub123');
+?>
